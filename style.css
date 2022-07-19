@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200&family=Lobster&family=Oswald:wght@300;400&family=PT+Sans+Narrow&family=Poppins:wght@300;400&family=The+Nautigal&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: #E0E0E0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background-color: #FFFFFF;
+    margin: 6px 6px 0 6px;
+    padding: 30px;
+}
+.top-banner{
+    padding: 30px;
+    width: 100%;
+
+}
+.gretest-earth{
+    display: flex;
+    position: relative;
+    left: 4rem;
+    background-color: black;
+    border-radius: 15px;
+    padding: 50px;
+    width: 1000px;
+    height: 480px;
+    
+    
+}
+/* .gretest-earth:hover{
+    border: 1px solid red;
+    flex-direction: row-reverse;
+    
+    
+} */
+.greatest-earth-heading{
+    width: 500px;
+    position: relative;
+    left: 3rem;
+    top: 4rem;
+   
+}
+.earth-heading{ 
+    font-size: 4rem;
+    width: 413px;
+    font-family: sans-serif;
+    padding: 5px;
+    color: white;
+}
+.earth-paragraph{
+    font-size: 13px;
+    width: 350px;
+    color: #eee3e3;
+    padding: 5px;
+    
+}
+.right-angle{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    top: 2rem;
+    left: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.fa-angle-right{
+    margin-left: 10px;
+}
+.most-valuable-player{
+    margin-left: 5rem;
+    position: relative;
+
+}
+.most-valuable-player img{
+    position: relative;
+    top: -10px;
+    width: 500px;
+    height: 540px;
+}
+
+.live-telecast{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 76px;
+
+}
+.live-telecast-left{
+    width: 400px;
+}
+.button-grid{
+    background-color: #161616;
+    width: 235px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.button-grid a{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 15px 5px 15px 5px ;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+    color: #161616;
+}
+.button-grid .blog-site{
+    background: red;
+    color: white;
+    font-weight: 700;
+}
+.live-telecast-right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 16px;
+}
