@@ -12,7 +12,7 @@ body{
 }
 main{
     background-color: #FFFFFF;
-    margin: 6px 6px 0 6px;
+    margin: 6px 6px 0px 6px;
     padding: 30px;
 }
 .top-banner{
@@ -29,22 +29,22 @@ main{
     padding: 50px;
     width: 1000px;
     height: 480px;
-    
-    
 }
-/* .gretest-earth:hover{
-    border: 1px solid red;
-    flex-direction: row-reverse;
-    
-    
-} */
+.gretest-earth:hover .most-valuable-player{
+    transform: translate3d(-445px,0px,400px);
+}
+.gretest-earth:hover .greatest-earth-heading{
+    transform:  rotate(-360deg) translateX(550px);
+    transform-origin: top right;    
+}
 .greatest-earth-heading{
     width: 500px;
     position: relative;
     left: 3rem;
-    top: 4rem;
-   
+    top: 4rem; 
+    transition: transform 5s ,rotate 1s linear;
 }
+
 .earth-heading{ 
     font-size: 4rem;
     width: 413px;
@@ -75,6 +75,7 @@ main{
 .most-valuable-player{
     margin-left: 5rem;
     position: relative;
+    transition: transform 5s;
 
 }
 .most-valuable-player img{
@@ -89,10 +90,12 @@ main{
     width: 100%;
     padding: 20px;
     margin-top: 76px;
+  
 
 }
 .live-telecast-left{
     width: 400px;
+    margin-left: 4.5rem;
 }
 .button-grid{
     background-color: #161616;
@@ -122,5 +125,265 @@ main{
 .live-telecast-right{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 16px;
+    margin: 0 116px 0 21px;
+    grid-gap: 17px;
 }
+.players-card{
+    width: 240px;
+    height: 270px;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.10);
+}
+.card-header{
+    width: 240px;
+}
+.card-info{
+    margin: 5px 5px 10px 15px;
+}
+.card-info>a{
+    text-decoration: none;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #000;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+.card-info>h3{
+    font-size: 14px;
+    padding: 20px 0 0 0px;
+    color: #161616;
+    font-weight: 700;
+}
+.card-icon{
+    margin-top: 12px;   
+}
+.card-icon-watch{
+    position: relative;
+    top: -3px;
+    height: 22px;
+}
+.card-icon-image{
+    margin-left: 20px;
+
+    
+}
+.card-icon span{
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+    left: 2px;
+}
+.view-all{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+
+.footer{
+    height: 372px;
+    background-color: #161616;
+    margin: -5px 6px 0px 6px;
+}
+.goal{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+hr{
+    width: 1105px;
+    position: relative;
+    top: 170px;
+    left: 117px;
+    right: 117px;
+    border-color: #333131;
+}
+.some-contact{
+    position: relative;
+    top: 12rem;
+    left: 250px;
+    right: 250px;
+    
+}
+.some-contact ul{
+    display: flex;
+    
+}
+.some-contact ul li{
+    list-style: none;
+    padding: 20px;
+}
+.some-contact ul li a{
+    text-decoration: none;
+    color: #858585;
+}
+.social-media-icon{
+    position: relative;
+    top: 13rem;
+    left: 39rem;
+    right: 250px;
+    
+}
+.social-media-icon ul{
+    display: flex;
+    
+}
+.social-media-icon ul li{
+    padding: 0 15px 0 0;
+    list-style: none;
+}
+.social-media-icon ul li a{
+    text-decoration: none;
+    color: rgb(169, 173, 173);
+    font-size: 23px;
+}
+
+/* Responsive for tablet */
+
+@media screen and (max-width:768px){
+    /* body{
+        width: 768px;
+    } */
+    main{
+        margin: 6px;
+        height: 2130px;
+
+    }
+    .top-banner{
+        padding: 10px;
+    }
+    .gretest-earth{
+        width: 500px;
+        height: 220px;
+        left: 25px;
+    }
+    .greatest-earth-heading{
+        width: 300px;
+
+    }
+    .earth-heading{
+        font-size: 1rem;
+        padding: 2px;
+
+    }
+
+    .earth-paragraph{
+        width: 150px;
+        font-size: 8px;
+    }
+    .right-angle{
+        padding: 5px 15px 5px 15px;
+        top: 1rem;
+        left: 2px;  
+    }
+    .fa-angle-right{
+        margin-left: 10px;
+    }
+    .most-valuable-player{
+        margin-left: 2rem;
+        transition: transform 5s;
+
+    }
+    .most-valuable-player img{
+        
+        width: 200px;
+        height: 280px;
+    }
+    .gretest-earth:hover .most-valuable-player{
+        transform: translate3d(-275px,0px,200px);
+    }
+    .gretest-earth:hover .greatest-earth-heading{
+        transform:  rotate(-360deg) translateX(250px);
+        transform-origin: top right;    
+    }
+    .live-telecast{
+        width: 740px;
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 64px;
+        flex-direction: column;
+    
+    }
+    .live-telecast-left{
+        width: 650px;
+        position: relative;
+        left: -4rem;
+
+    }
+    .button-grid{
+        width: 630px;
+        height: 88px;
+        display: grid;
+        grid-gap: 1.5rem;
+        grid-template-columns: repeat(3, 1fr);
+        background: none;
+    }
+    .button-grid a{
+        font-weight: 700;
+        color: #161616;
+        border: 1px solid gray;
+    }
+
+
+    .live-telecast-right{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 80px 0 40px;
+    }
+    .view-all{
+        font-size: 18px;
+        display: block;
+        background: #858585;
+        width: 200px;
+        position: relative;
+        left: 15rem;
+        padding: 15px;
+    }
+    
+    .players-card{
+        width: 260px;
+        height: 270px;
+        border: 1px solid #F4F4F4;
+        padding: 10px 15px 10px 15px;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.10);
+    }
+
+    hr{
+        width: 500px;
+        position: relative;
+        top: 170px;
+        left: 117px;
+        right: 117px;
+        border-color: #333131;
+    }
+    .footer{
+        height: 400px;
+        background-color: #161616;
+        margin: -5px 6px 4px 6px;
+    }
+
+    .some-contact ul li{
+        list-style: none;
+        padding: 10px;
+    }
+    .some-contact ul li a{
+        font-size: 12px;
+    }
+    .some-contact{
+        top: 12rem;
+        left: 100px;
+        right: 120px;
+        
+    }
+    .social-media-icon{
+        top: 13rem;
+        left: 18rem;
+        right: 100px;    
+    }
+}
+
