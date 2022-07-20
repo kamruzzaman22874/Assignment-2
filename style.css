@@ -321,10 +321,10 @@ hr{
 
 /* Responsive for tablet */
 
-/* @media screen and (min-width: 481px) and (max-width:768px){
-    main{
+@media screen and (min-width: 481px) and (max-width:768px){
+    /* main{
         height: 2130px;
-    }
+    } */
 
     .top-banner{
         width: 500px;
@@ -473,142 +473,140 @@ hr{
          }
 } */
 
+/* @media screen and (max-width:768px){
 
-@media screen and (max-width:768px){
-
-     main{
-        background: none;
-     }
-     .body{
-        background: #fff;
-        margin: 6px;
-     }
-     .gretest-earth{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 450px;
-        height: 184px;
-        left: 79px;
-        top: 20px;
-     }
-    .greatest-earth-heading{
-        width: 200px;
-        left: 1rem;
-        top: 4rem;
+    main{
+       background: none;
     }
-
-    .earth-heading {
-        font-size: 16px;
-        width: 130px;
-        padding: 3px;
+    .body{
+       background: #fff;
+       margin: 6px;
     }
-
-    .earth-paragraph {
-        font-size: 8px;
-        color: #eee3e3;
-        padding: 3px;
-        width: 164px;
+    .gretest-earth{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       width: 450px;
+       height: 184px;
+       left: 79px;
+       top: 20px;
     }
+   .greatest-earth-heading{
+       width: 200px;
+       left: 1rem;
+       top: 4rem;
+   }
 
+   .earth-heading {
+       font-size: 16px;
+       width: 130px;
+       padding: 3px;
+   }
 
-    .right-angle {
-        text-decoration: none;
-        background-color: red;
-        padding: 4px 6px 6px 6px;
-        position: relative;
-        top: 1rem;
-        left: 2px;
-        color: white;
-        border-radius: 5px;
-    }
-
-    .most-valuable-player{
-        left: 2rem;
-    }
+   .earth-paragraph {
+       font-size: 8px;
+       color: #eee3e3;
+       padding: 3px;
+       width: 164px;
+   }
 
 
-    .most-valuable-player img {
-        position: relative;
-        top: -10px;
-        width: 200px;
-        height: 244px;
-    
-    }
-    .live-telecast{
-        display: grid;
-    }
+   .right-angle {
+       text-decoration: none;
+       background-color: red;
+       padding: 4px 6px 6px 6px;
+       position: relative;
+       top: 1rem;
+       left: 2px;
+       color: white;
+       border-radius: 5px;
+   }
 
-    .button-grid{
-        position: relative;
-        width: 582px;
-        height: 88px;
-        display: grid;
-        grid-gap: -0.5rem;
-        grid-template-columns: repeat(3, 1fr);
-        background: none;
-        left: 1.7rem;
-    }
-    .live-telecast-right{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 0 116px 0 73px;
-        grid-gap: 17px;
-    }
-    .live-telecast-left{
-        width: 300px;
-        margin-left: 0.5rem;
-    }
-    .view-all{
-        font-size: 18px;
-        display: block;
-        background: #DD0000;
-        width: 200px;
-        position: relative;
-        left: 15rem;
-        padding: 15px;
-    }
-    .footer{
-        height: 400px;
-        background-color: #161616;
-        margin: -5px 6px 4px 6px;
-    }
-    hr{
-        width: 500px;
-        position: relative;
-        top: 170px;
-        left: 117px;
-        right: 117px;
-        border-color: #333131;
-    }
-    .some-contact ul li{
-        list-style: none;
-        padding: 10px;
-    }
-    .some-contact ul li a{
-        font-size: 12px;
-    }
-    .some-contact{
-        top: 12rem;
-        left: 100px;
-        right: 120px;
-        
-    }
-    .social-media-icon{
-        top: 13rem;
-        left: 18rem;
-        right: 100px;    
-    }
-    .gretest-earth:hover .most-valuable-player{
-        transform: translate3d(-275px,0px,200px);
-    }
-    .gretest-earth:hover .greatest-earth-heading{
-        transform:  rotate(-360deg) translateX(250px);
-        transform-origin: top right;    
-    }
-    
+   .most-valuable-player{
+       left: 2rem;
+   }
+
+
+   .most-valuable-player img {
+       position: relative;
+       top: -10px;
+       width: 200px;
+       height: 244px;
+   
+   }
+   .live-telecast{
+       display: grid;
+   }
+
+   .button-grid{
+       position: relative;
+       width: 582px;
+       height: 88px;
+       display: grid;
+       grid-gap: -0.5rem;
+       grid-template-columns: repeat(3, 1fr);
+       background: none;
+       left: 1.7rem;
+   }
+   .live-telecast-right{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       margin: 0 116px 0 73px;
+       grid-gap: 17px;
+   }
+   .live-telecast-left{
+       width: 300px;
+       margin-left: 0.5rem;
+   }
+   .view-all{
+       font-size: 18px;
+       display: block;
+       background: #DD0000;
+       width: 200px;
+       position: relative;
+       left: 15rem;
+       padding: 15px;
+   }
+   .footer{
+       height: 400px;
+       background-color: #161616;
+       margin: -5px 6px 4px 6px;
+   }
+   hr{
+       width: 500px;
+       position: relative;
+       top: 170px;
+       left: 117px;
+       right: 117px;
+       border-color: #333131;
+   }
+   .some-contact ul li{
+       list-style: none;
+       padding: 10px;
+   }
+   .some-contact ul li a{
+       font-size: 12px;
+   }
+   .some-contact{
+       top: 12rem;
+       left: 100px;
+       right: 120px;
+       
+   }
+   .social-media-icon{
+       top: 13rem;
+       left: 18rem;
+       right: 100px;    
+   }
+   .gretest-earth:hover .most-valuable-player{
+       transform: translate3d(-275px,0px,200px);
+   }
+   .gretest-earth:hover .greatest-earth-heading{
+       transform:  rotate(-360deg) translateX(250px);
+       transform-origin: top right;    
+   }
+   
 }
-
-@media screen and (max-width:481px) {
+@media screen and (max-width:481px){
     .gretest-earth{
     width: 342px;
     height: 184px;
@@ -665,7 +663,7 @@ hr{
     transform:  rotate(-360deg) translateX(200px);
     transform-origin: top right;    
 }
-}
+} 
 
 
 
