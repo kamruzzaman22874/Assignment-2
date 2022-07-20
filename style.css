@@ -13,7 +13,7 @@ body{
 }
 main{
     background-color: #FFFFFF;
-    margin: 6px 6px 0px 6px;
+    margin: 6px 6px 6px 6px;
     padding: 30px;
 }
 
@@ -21,15 +21,15 @@ main{
 /* ............><.................
 Top-Banner Section Design 
 ............><................. */
-.top-banner{
+ /* .top-banner{
     padding: 30px;
     width: 100%;
 
-}
-.gretest-earth{
+}  */
+.gretest-earth {
     display: flex;
     position: relative;
-    left: 4rem;
+    left: 5.5rem;
     background-color: black;
     border-radius: 15px;
     padding: 50px;
@@ -79,15 +79,14 @@ Top-Banner Section Design
     margin-left: 10px;
 }
 .most-valuable-player{
-    margin-left: 5rem;
     position: relative;
     transition: transform 5s;
-
+    left: 3rem;
 }
 .most-valuable-player img{
     position: relative;
     top: -10px;
-    width: 500px;
+    width: 455px;
     height: 540px;
 }
 /* ............><.................
@@ -475,15 +474,199 @@ hr{
 } */
 
 
-@media screen and (min-width: 768) and (max-width:991px){
+@media screen and (max-width:768px){
 
+     main{
+        background: none;
+     }
+     .body{
+        background: #fff;
+        margin: 6px;
+     }
      .gretest-earth{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 635px;
-        position: relative;
-        left: 0;
+        width: 450px;
+        height: 184px;
+        left: 79px;
+        top: 20px;
      }
+    .greatest-earth-heading{
+        width: 200px;
+        left: 1rem;
+        top: 4rem;
+    }
+
+    .earth-heading {
+        font-size: 16px;
+        width: 130px;
+        padding: 3px;
+    }
+
+    .earth-paragraph {
+        font-size: 8px;
+        color: #eee3e3;
+        padding: 3px;
+        width: 164px;
+    }
 
 
+    .right-angle {
+        text-decoration: none;
+        background-color: red;
+        padding: 4px 6px 6px 6px;
+        position: relative;
+        top: 1rem;
+        left: 2px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .most-valuable-player{
+        left: 2rem;
+    }
+
+
+    .most-valuable-player img {
+        position: relative;
+        top: -10px;
+        width: 200px;
+        height: 244px;
+    
+    }
+    .live-telecast{
+        display: grid;
+    }
+
+    .button-grid{
+        position: relative;
+        width: 582px;
+        height: 88px;
+        display: grid;
+        grid-gap: -0.5rem;
+        grid-template-columns: repeat(3, 1fr);
+        background: none;
+        left: 1.7rem;
+    }
+    .live-telecast-right{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 116px 0 73px;
+        grid-gap: 17px;
+    }
+    .live-telecast-left{
+        width: 300px;
+        margin-left: 0.5rem;
+    }
+    .view-all{
+        font-size: 18px;
+        display: block;
+        background: #DD0000;
+        width: 200px;
+        position: relative;
+        left: 15rem;
+        padding: 15px;
+    }
+    .footer{
+        height: 400px;
+        background-color: #161616;
+        margin: -5px 6px 4px 6px;
+    }
+    hr{
+        width: 500px;
+        position: relative;
+        top: 170px;
+        left: 117px;
+        right: 117px;
+        border-color: #333131;
+    }
+    .some-contact ul li{
+        list-style: none;
+        padding: 10px;
+    }
+    .some-contact ul li a{
+        font-size: 12px;
+    }
+    .some-contact{
+        top: 12rem;
+        left: 100px;
+        right: 120px;
+        
+    }
+    .social-media-icon{
+        top: 13rem;
+        left: 18rem;
+        right: 100px;    
+    }
+    .gretest-earth:hover .most-valuable-player{
+        transform: translate3d(-275px,0px,200px);
+    }
+    .gretest-earth:hover .greatest-earth-heading{
+        transform:  rotate(-360deg) translateX(250px);
+        transform-origin: top right;    
+    }
+    
 }
+
+@media screen and (max-width:481px) {
+    .gretest-earth{
+    width: 342px;
+    height: 184px;
+    left: -16px;
+    top: -21px;
+}
+.button-grid{
+    position: relative;
+    width: 453px;
+    height: 91px;
+    display: grid;
+    grid-gap: -0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    background: none;
+    left: -3.9rem;
+    top: -5rem;
+}
+.live-telecast-right{
+    margin: -51px 8px 0 -30px;
+    grid-gap: 7px;
+}
+.players-card{
+    width: 190px;
+}
+.card-header{
+    width: 192px;
+}
+.view-all{
+    width: 157px;
+    left: 7rem;
+}
+hr{
+    width: 217px;
+}
+.some-contact{
+    left: 22px;
+}
+.some-contact ul li a{
+    font-size: 8px;
+}
+.social-media-icon{
+    top: 150rem;
+    left: 10rem;
+    right: 0;
+    position: absolute;
+}
+.most-valuable-player img{
+    width: 141px;
+}
+.gretest-earth:hover .most-valuable-player{
+    transform: translate3d(-200px,0px,100px);
+}
+.gretest-earth:hover .greatest-earth-heading{
+    transform:  rotate(-360deg) translateX(200px);
+    transform-origin: top right;    
+}
+}
+
+
+
+
