@@ -321,10 +321,10 @@ hr{
 
 /* Responsive for tablet */
 
-@media screen and (min-width: 481px) and (max-width:768px){
-    /* main{
+/* @media screen and (min-width: 481px) and (max-width:768px){
+    main{
         height: 2130px;
-    } */
+    }
 
     .top-banner{
         width: 500px;
@@ -455,7 +455,7 @@ hr{
         left: 18rem;
         right: 100px;    
     }
-} */
+}  */
 
 /* Responsive For Mobile  */
 
@@ -472,8 +472,7 @@ hr{
             
          }
 } */
-
-/* @media screen and (max-width:768px){
+ @media screen and (max-width:768px){
 
     main{
        background: none;
