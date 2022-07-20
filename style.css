@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     box-sizing: border-box;
     background-color: #E0E0E0;
@@ -15,6 +16,11 @@ main{
     margin: 6px 6px 0px 6px;
     padding: 30px;
 }
+
+
+/* ............><.................
+Top-Banner Section Design 
+............><................. */
 .top-banner{
     padding: 30px;
     width: 100%;
@@ -84,6 +90,13 @@ main{
     width: 500px;
     height: 540px;
 }
+/* ............><.................
+Top Banner Style End 
+............><................. */
+
+/* ............><.................
+Live Telecast Section Start
+............><................. */
 
 .live-telecast{
     display: flex;
@@ -136,6 +149,8 @@ main{
     padding: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.10);
 }
+
+
 .card-header{
     width: 240px;
 }
@@ -167,20 +182,31 @@ main{
 }
 .fa-comment-dots{
     position: relative;
-    left: 20px;
+    left: 15px;
 }
 .card-icon span{
     font-size: 14px;
     position: relative;
     top: 0px;
-    left: 10px;
+    left: 8px;
 }
 .card-icon .number{
     font-size: 14px;
     position: relative;
     top: 0px;
-    left: 25px;
+    left: 19px;
 }
+
+
+/* ............><.................
+Live Telecast and Player Features Section End 
+............><................. */
+
+/* ............><.................
+Different Section Start
+............><................. */
+
+
 .view-all{
     color: white;
     text-decoration: none;
@@ -188,6 +214,12 @@ main{
     border-radius: 10px;
     display: none;
 }
+/* ............><.................
+        Different Secion End
+............><................. */
+/* ............><.................
+Footer Section Start
+............><................. */
 
 .footer{
     height: 372px;
@@ -285,33 +317,33 @@ hr{
     
 }
 
+/* Footer Section End  */
+
 
 /* Responsive for tablet */
 
-@media screen and (min-width: 481px) and (max-width:768px){
+/* @media screen and (min-width: 481px) and (max-width:768px){
     main{
-        margin: 6px;
         height: 2130px;
-
     }
+
     .top-banner{
-        padding: 10px;
+        width: 500px;
     }
     .gretest-earth{
-        width: 500px;
-        height: 220px;
-        left: 25px;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       width: 300px;
+       
     }
     .greatest-earth-heading{
-        width: 300px;
+        width: 200px;
 
     }
     .earth-heading{
-        font-size: 1rem;
+        font-size: .5rem;
         padding: 2px;
-
     }
-
     .earth-paragraph{
         width: 150px;
         font-size: 8px;
@@ -327,7 +359,6 @@ hr{
     .most-valuable-player{
         margin-left: 2rem;
         transition: transform 5s;
-
     }
     .most-valuable-player img{
         
@@ -425,8 +456,34 @@ hr{
         left: 18rem;
         right: 100px;    
     }
-}
+} */
 
-@media screen and (min-width: 320px) and (max-width:480px){
-    
+/* Responsive For Mobile  */
+
+/* @media screen and (min-width: 320px) and (max-width:480px){
+
+    .top-banner{
+        width: 100%;
+        padding: 10px;
+    }
+         .gretest-earth{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            flex-direction: column-reverse;
+            
+         }
+} */
+
+
+@media screen and (min-width: 768) and (max-width:991px){
+
+     .gretest-earth{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 635px;
+        position: relative;
+        left: 0;
+     }
+
+
 }
