@@ -242,6 +242,44 @@ hr{
     color: rgb(169, 173, 173);
     font-size: 23px;
 }
+.country-blog{
+    width: 240px;
+    height: 210px;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.10);
+}
+.country-flag{
+    padding: 10px;
+    display: flex;
+    margin: 25px 5px 5px 5px;
+}
+.country-flag img{
+    height: 40px;
+    width: 78px;
+    margin-left: 10px;
+}
+.country-flag span{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 5px 5px 0 8px;
+}
+.country-header{
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.country-header h2{
+    font-size: 16px;
+}
+.country-header h4{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
 
 /* Responsive for tablet */
 
@@ -338,7 +376,7 @@ hr{
     .view-all{
         font-size: 18px;
         display: block;
-        background: #858585;
+        background: #DD0000;
         width: 200px;
         position: relative;
         left: 15rem;
