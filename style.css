@@ -160,21 +160,26 @@ main{
 .card-icon{
     margin-top: 12px;   
 }
-.card-icon-watch{
+.fa-clock{
     position: relative;
-    top: -3px;
-    height: 22px;
+    top: 0px;
+    height: 22px;  
 }
-.card-icon-image{
-    margin-left: 20px;
-
-    
+.fa-comment-dots{
+    position: relative;
+    left: 20px;
 }
 .card-icon span{
     font-size: 14px;
     position: relative;
-    top: -10px;
-    left: 2px;
+    top: 0px;
+    left: 10px;
+}
+.card-icon .number{
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    left: 25px;
 }
 .view-all{
     color: white;
@@ -283,10 +288,7 @@ hr{
 
 /* Responsive for tablet */
 
-@media screen and (max-width:768px){
-    /* body{
-        width: 768px;
-    } */
+@media screen and (min-width: 481px) and (max-width:768px){
     main{
         margin: 6px;
         height: 2130px;
@@ -425,3 +427,6 @@ hr{
     }
 }
 
+@media screen and (min-width: 320px) and (max-width:480px){
+    
+}
