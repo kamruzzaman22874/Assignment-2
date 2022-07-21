@@ -476,6 +476,11 @@ hr{
             
          }
 } */
+
+
+/* Responsive For Tablet Device By Max-With */
+
+
  @media only screen and (max-width:768px){
 
     main{
@@ -614,6 +619,10 @@ hr{
    }
    
 }
+
+/* Responsive For Tablet Device By Min-With */
+
+
 @media only screen and (max-width:481px){
     .gretest-earth{
     width: 342px;
@@ -672,6 +681,9 @@ hr{
     transform-origin: top right;    
 }
 } 
+
+/* Responsive For Mobile Device */
+
 @media screen and (max-width:320px) {
     main{
         width: 316px;
@@ -770,6 +782,8 @@ hr{
     }
 }
 
+
+/* The End All Css Code  */
 
 
 
