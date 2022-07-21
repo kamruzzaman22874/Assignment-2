@@ -699,6 +699,8 @@ hr{
     .live-telecast{
         display: flex;
         flex-direction: column;
+        position: relative;
+        top: 50px;
     }
     .button-grid{
         display: flex;
@@ -723,6 +725,7 @@ hr{
     .view-all{
         width: 163px;
         left: 2rem;
+        top: 100px;
     }
     .goal{
         top: 16px;
@@ -751,6 +754,9 @@ hr{
     .some-contact ul li a{
         font-size: 15px;
         padding-bottom: 10px;
+    }
+    .country-blog{
+        height: 310px;
     }
     .footer{
         padding-bottom: 10px;
