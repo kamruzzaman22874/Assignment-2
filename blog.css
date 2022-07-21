@@ -550,6 +550,7 @@ hr{
        background: none;
        left: 1.7rem;
    }
+
    .button-grid  a{
     border: 1px solid #6d6868;
     
@@ -674,7 +675,7 @@ hr{
 @media screen and (max-width:320px) {
     main{
         width: 316px;
-       
+        height: 1500px;
         
     }
     .gretest-earth{
@@ -704,7 +705,7 @@ hr{
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 10px;
+        top: 50px;
     }
     .button-grid{
         display: flex;
@@ -729,7 +730,7 @@ hr{
     .view-all{
         width: 163px;
         left: 2rem;
-        top: 60px;
+        top: 100px;
     }
     .goal{
         top: 16px;
@@ -759,12 +760,14 @@ hr{
         font-size: 15px;
         padding-bottom: 10px;
     }
-    .footer{
-        position: relative;
-        top: 5rem;
+    .hidden-display{
+        display: hidden;
     }
 
-    
+    .footer{
+        position: relative;
+        top: 95rem;
+    }
 }
 
 
