@@ -7,7 +7,7 @@
 
 body{
     box-sizing: border-box;
-    background-color: #E0E0E0;
+    background-color: #FFf;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -110,7 +110,7 @@ Live Telecast Section Start
     margin-left: 4.5rem;
 }
 .button-grid{
-    background-color: #161616;
+    background-color: #30302e;
     width: 235px;
     height: 235px;
     display: flex;
@@ -133,6 +133,10 @@ Live Telecast Section Start
     background: red;
     color: white;
     font-weight: 700;
+    transition: 2s;
+}
+.button-grid .blog-site:hover{
+    background-color: green;
 }
 .live-telecast-right{
     display: grid;
@@ -472,7 +476,7 @@ hr{
             
          }
 } */
- @media screen and (max-width:768px){
+ @media only screen and (max-width:768px){
 
     main{
        background: none;
@@ -605,7 +609,7 @@ hr{
    }
    
 }
-@media screen and (max-width:481px){
+@media only screen and (max-width:481px){
     .gretest-earth{
     width: 342px;
     height: 184px;
@@ -663,6 +667,99 @@ hr{
     transform-origin: top right;    
 }
 } 
+@media screen and (max-width:320px) {
+    main{
+        width: 316px;
+        height: 1500px;
+        
+    }
+    .gretest-earth{
+        display: flex;
+        flex-direction: column;
+        width: 174px;
+        left: -12px;
+        top: -1.5rem;
+        height: 19.1rem;
+    }
+    .greatest-earth-heading{
+        left: 2rem;
+        top: -2rem;
+        width: 700px;
+    }
+    .earth-heading{
+        font-size: 14px;
+        text-align: center;
+    }
+    .earth-paragraph{
+        text-overflow: ellipsis;
+    }
+    .most-valuable-player{
+        top: 5px;
+    }
+    .live-telecast{
+        display: flex;
+        flex-direction: column;
+    }
+    .button-grid{
+        display: flex;
+        flex-direction: column;
+        width: 192px;
+        height: 100px;
+        top: -133px;
+        left: -11px;
+    }
+
+    .live-telecast-right{
+        margin: 0px 8px 0 -30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .players-card{
+        width: 193px;
+        position: relative;
+        left: 28px;
+    }
+    .view-all{
+        width: 163px;
+        left: 2rem;
+    }
+    .goal{
+        top: 16px;
+    }
+    hr{
+        width: 150px;
+        top: 33px;
+        left: 82px;
+    }
+    .some-contact{
+        top: 2.5rem;
+        left: 6rem;
+    }
+    .some-contact ul{
+        flex-direction: column;     
+    }
+    .some-contact ul li {
+        padding-bottom: 10px;
+        margin: 0;     
+    }
+    .social-media-icon{
+        position: absolute;
+        top: 23rem;
+        left: 90px;
+    }
+    .some-contact ul li a{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .footer{
+        padding-bottom: 10px;
+        position: relative;
+        top: 118rem;
+    }
+    
+}
+
 
 
 
